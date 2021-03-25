@@ -1,5 +1,6 @@
 +++
 author = "Hugo Authors"
+image = "images/landingpage.jpg"
 +++
 
 <!--

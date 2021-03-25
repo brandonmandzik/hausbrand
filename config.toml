@@ -1,7 +1,7 @@
 baseURL = "https://awesome-nobel-4cfc38.netlify.app"
 languageCode = "en"
 DefaultContentLanguage = "en"
-title = "Website of Jane Doe"
+title = "Hausbrand"
 theme = "anatole"
 summarylength = 10
 enableEmoji = true
@@ -19,18 +19,27 @@ pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 
 [params]
-title = "I'm Jane Doe"
-author = "Jane Doe"
-#copyright = "2020-2021"
-description = "Call me Jane"
+title = "'Hausbrand'"
+author = "Brandon Mandzik"
+#copyright = "2021"
+description = """
+Techno/House DJ & Producer
+Co-Founder of 'Ultraschnell'
+Based in Berlin
+
+- I'm the reason for a hausbrand. -
+
+Booking Request:
+hausbraand@gmail.com
+"""
 profilePicture = "images/profile.jpg"
-keywords = ""
+keywords = "House, Techno, DJ, Production"
 favicon = "favicons/"
 # example ["css/custom.css"]
-customCss = []
+customCss = ["css/hausbrand.css"]
 # example ["js/custom.js"]
 customJs = [] 
-mainSections = ["post"]
+mainSections = [""]
 images = ["images/site-feature-image.png"]
 doNotLoadAnimations = false
 # Form Spree Contact Form
@@ -60,22 +69,22 @@ use = "katex"  # options: "katex", "mathjax". default is "katex".
 [[params.socialIcons]]
 icon = "fab fa-linkedin"
 title = "Linkedin"
-url = "https://de.linkedin.com/"
+url = "https://www.linkedin.com/in/brandon-mandzik-820321190/"
 
 [[params.socialIcons]]
 icon = "fab fa-github"
 title = "GitHub"
-url = "https://github.com/lxndrblz/anatole/"
+url = "https://github.com/brandonmandzik"
 
 [[params.socialIcons]]
 icon = "fab fa-instagram"
 title = "instagram"
-url = "https://www.instagram.com/"
+url = "https://www.instagram.com/b.raandom"
 
 [[params.socialIcons]]
 icon = "fas fa-envelope"
 title = "e-mail"
-url = "mailto:mail@example.com"
+url = "mailto:mail@hausbraand@gmail.com"
 
 ## Menu items
 
@@ -88,10 +97,10 @@ url = "mailto:mail@example.com"
   url = "/"
 
   [[menu.main]]
-  name = "Posts"
+  name = "Blog"
   weight = 200
-  identifier = "posts"
-  url = "/post/"
+  identifier = "blog"
+  url = "/blog/"
 
   [[menu.main]]
   name = "About"
@@ -100,7 +109,7 @@ url = "mailto:mail@example.com"
   url = "/about/"
 
   [[menu.main]]
-  name = "Contact"
+  name = "Work"
   weight = 400
-  identifier = "contact"
-  url = "/contact/"
+  identifier = "work"
+  url = "/work/"
