@@ -7,7 +7,7 @@
 
             One can set `mainSections = [""]` and have the content/_index.md specified here
         -->
-        <img src="{{ .Params.image | absURL }}" alt="landing picture" class="landingPhoto">
+        <img src="{{ .Params.image | absURL }}" alt="background picture" class="landingPhoto">
         <div class="landingContent">
             <!-- content -->
             {{.Content}}
@@ -17,7 +17,7 @@
                     <input type="text" placeholder="email@example.com" name="mail" required>
                 </div>
                 <div class="subscripeContainer">
-                    <input type="submit" value="Subscribe">
+                    <input type="submit" class="submitBtn" value="Subscribe">
                 </div>
             </form>
         </div>
