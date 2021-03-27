@@ -262,6 +262,7 @@ a:active {
     background-color: var(--bg-color);
     height: 100%;
     top: 0;
+    bottom: 100%;
     left: 0;
     position: fixed;
     z-index: 4;
@@ -273,7 +274,7 @@ a:active {
 
 .sidebar .logo-title {
     text-align: center;
-    padding-top: 240px;
+    padding-top: 200px;
     flex: 1;
 }
 
