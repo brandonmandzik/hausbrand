@@ -39,7 +39,7 @@ favicon = "favicons/"
 customCss = ["css/hausbrand.css"]
 # example ["js/custom.js"]
 customJs = [] 
-mainSections = [""]
+mainSections = ["blog"]
 images = ["images/site-feature-image.png"]
 doNotLoadAnimations = false
 # Form Spree Contact Form

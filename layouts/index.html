@@ -8,7 +8,20 @@
             One can set `mainSections = [""]` and have the content/_index.md specified here
         -->
         <img src="{{ .Params.image | absURL }}" alt="landing picture" class="landingPhoto">
-        {{ .Content }}
+        <div class="landingContent">
+            <!-- content -->
+            {{.Content}}
+            <!-- Subscripe -->
+            <form action="" class="subscribeFormBox">  
+                <div class="subscripeContainer">
+                    <input type="text" placeholder="email@example.com" name="mail" required>
+                </div>
+                <div class="subscripeContainer">
+                    <input type="submit" value="Subscribe">
+                </div>
+            </form>
+        </div>
+        
     </div>
 
     {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}

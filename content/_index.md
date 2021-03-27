@@ -3,23 +3,10 @@ author = "Hugo Authors"
 image = "images/landingpage.jpg"
 +++
 
-<!--
-This file is left intentionally empty by default to be backward compatible with initial theme setup.
+## Feel the Music.
+## Feel the Electricity.
+## Be part of the Flame.
+---
+My name is Bob. Born and raised in Berln. I'm totaly inspiried by the culture and the people there. Driven by the electric pulse of the city, I produce and perform dance music. If you're searching for the hottest dance set. Book me or stayed tuned by subscriping to my newsletter.
 
-Although the theme has advanced a little bit and it now allows to specify the content on the main page (even if the list of posts/articles is not intended).
-This can be:
-- with the list of posts/articles (default: `mainSections = ["post"]) or
-- without the list of posts/articles (by setting `mainSections = [""]`)
-
-Markdown supported, ie:
-
-```
-# Welcome
-
-- Hugo :rocket:
-- Hugo theme :rocket:
-
-Don't forget to check the README.md file!
-```
-
--->
+---   

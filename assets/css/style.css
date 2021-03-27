@@ -280,6 +280,7 @@ a:active {
 .sidebar .logo-title .description {
     font-size: 14px;
     margin: 0 1em;
+    display: inline-block ;
 }
 
 .sidebar .logo-title .logo {
