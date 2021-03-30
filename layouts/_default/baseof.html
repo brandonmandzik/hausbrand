@@ -4,8 +4,8 @@
 <body>
 
 {{- partial "sidebar.html" . -}}
+{{- partial "navbar.html" . -}}
 <div class="main">
-    {{ partial "navbar.html" . }}
     <div class="autopagerize_page_element">
         <div class="content">
             {{- block "main" . }}{{- end }}

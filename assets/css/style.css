@@ -16,6 +16,7 @@
     --blockquote-border-color: #dfe2e5;
     --thumbnail-height: 15em;
     scroll-padding-top: 100px;
+    --sb-box: #FAFAFA;
 }
 
 html[data-theme='dark'] {
@@ -32,6 +33,7 @@ html[data-theme='dark'] {
     --tag-color: rgb(191, 191, 191);
     --blockquote-text-color: #808080;
     --blockquote-border-color: #424242;
+    --sb-box: #DCDCDC;
 }
 
 html {
@@ -191,6 +193,7 @@ a:active {
     background-color: var(--bg-color);
     height: 60px;
     border-bottom: 1px solid var(--border-color);
+    top: 0;
 }
 
 .page-top .nav {
@@ -886,7 +889,7 @@ a.btn {
 print {
     .sidebar {
         width: 100%;
-        position: absolute;
+        position: relative;
         border-right: none;
         z-index: 1;
     }
@@ -912,7 +915,6 @@ print {
     }
 
     .content {
-        margin-top: 420px;
         width: 100%;
         z-index: 2;
         position: absolute;
