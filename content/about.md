@@ -1,5 +1,5 @@
 +++
-title = "Hausbrand"
+title = ""
 description = "Background"
 date = "2021-03-27"
 aliases = ["about-us", "about-hugo", "contact"]
@@ -7,15 +7,15 @@ author = "Bob"
 layout = "about"
 imageTop = "images/aboutBG.jpg"
 imageBottom = "images/aboutBG2.jpg"
-contact = true
 +++
 
-My name is Bob and I'm 22 and produce/perform under my artist name __'Hausbrand'__. Techno and House are my genres. I'm only here for the music and the ecstatic it brings. Growing as a human means for me also growing as an artist. With a friend together we found the record label __'Ultraschnell'__. _Which represents our fast and creative face._  
+Bob is 22 and produces/performs under his artist name ' __Hausbrand__ ' . He lives for the musical moments and his House style is memorable. Growing as a human means also growing as an artist. With a friend together he found the record label ' __Ultraschnell__ ' . 
+_Which represents the Berliner's fast and creative lifestyle._  
 
-Someone told me once:
-> You are the reason for a house fire.
+Someone:
+> You are the reason for a house fire.  
 
-I spend my whole life in the city and got the opportunity to dicover all corners of berlin. I know every club and the people here. The combination of all these small little things matter to me. It's just about you, the music and the moment. And I try to deliver exactly these moments to everybody. That's my goal.
+"I spend my whole life in a big city and got the opportunity to dicover all corners of Berlin. I know every club and the people here. But every time it feels like a new adventure to me. It's just about you, the music and the moment. And I try to deliver exactly these unforgetable moments to everybody. That's my goal."
 
 
 

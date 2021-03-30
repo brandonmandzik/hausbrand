@@ -20,7 +20,7 @@ pygmentsCodefencesGuessSyntax = true
 
 [params]
 title = "'Hausbrand'"
-author = "Brandon Mandzik"
+author = "Hausbrand"
 #copyright = "2021"
 description = """
 Techno/House DJ & Producer
@@ -103,13 +103,13 @@ url = "mailto:mail@hausbraand@gmail.com"
   url = "/blog/"
 
   [[menu.main]]
-  name = "About"
-  weight = 300
-  identifier = "about"
-  url = "/about/"
-
-  [[menu.main]]
   name = "Work"
-  weight = 400
+  weight = 300
   identifier = "work"
   url = "/work/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 400
+  identifier = "about"
+  url = "/about/"

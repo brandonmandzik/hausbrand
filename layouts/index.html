@@ -1,12 +1,7 @@
 {{ define "main" }}
 
     <div class="post {{ with .Site.Params.doNotLoadAnimations }} . {{ else }} animated fadeInDown {{ end }}">
-        <!-- (Optional) Home
-            -- on top of `mainSections` content (aka posts) ;
-            -- as declared in content/_index.md
-
-            One can set `mainSections = [""]` and have the content/_index.md specified here
-        -->
+        <!-- landingPhoto -->
         <img src="{{ .Params.image | absURL }}" alt="background picture" class="landingPhoto">
         <div class="landingContent">
             <!-- content -->
@@ -14,10 +9,13 @@
             <!-- Subscripe -->
             <form action="" class="subscribeFormBox">  
                 <div class="subscripeContainer">
+                    <div class="subscribeLabel">
+                        <label for="mail">Subscribe to get updates</label>
+                    </div>
                     <input type="text" placeholder="email@example.com" name="mail" required>
                 </div>
                 <div class="subscripeContainer">
-                    <input type="submit" class="submitBtn" value="Subscribe">
+                    <input type="submit" class="submitBtn" value="Joint the list!">
                 </div>
             </form>
         </div>

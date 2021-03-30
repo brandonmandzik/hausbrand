@@ -22,12 +22,19 @@
 }
 
 .subscribeFormBox{
-    width: 30%;
+    width: 40%;
     margin: 3% auto 0 auto ;
-    padding: 1% 0;
+    padding: 0.5% 0;
     border: 2px solid #A8A8B1;
+    background-color: #FAFAFA;
+    border-radius: 5px;
 }
 
+.subscribeLabel{
+    color: #2A292D;
+    margin-bottom: 4%;
+    font-family: 'Verdana', sans-serif;
+}
 .aboutPhoto{
     display: block;
     position: static;
@@ -37,7 +44,7 @@
 }
 
 .submitBtn {
-    background-color: #3785b6b5; /* Green */
+    background-color: #467C8F; /* Green */
     border: none;
     border-radius: 5px;
     color: white;
