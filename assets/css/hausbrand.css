@@ -20,6 +20,7 @@
 
 .subscripeContainer{
     margin: 3% 0 3% 0;
+    -webkit-appearance: none;
 }
 
 .subscribeFormBox{
