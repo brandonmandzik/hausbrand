@@ -7,15 +7,15 @@
             <!-- content -->
             {{.Content}}
             <!-- Subscripe -->
-            <form action="" class="subscribeFormBox">  
+            <form action="{{ .Site.Params.baseURL }}/.netlify/functions/subscribe" method="POST" class="subscribeFormBox">  
                 <div class="subscripeContainer">
                     <div class="subscribeLabel">
-                        <label for="mail">Subscribe to get updates</label>
+                        <label for="email">Subscribe to get updates</label>
                     </div>
-                    <input type="text" placeholder="email@example.com" name="mail" required>
+                    <input type="text" placeholder="email@example.com" name="email" required>
                 </div>
                 <div class="subscripeContainer">
-                    <input type="submit" class="submitBtn" value="Joint the list!">
+                    <input type="submit" class="submitBtn" value="Join the list!">
                 </div>
             </form>
         </div>
