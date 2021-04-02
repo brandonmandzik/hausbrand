@@ -26,8 +26,6 @@ func handler(request events.APIGatewayProxyRequest) (*events.APIGatewayProxyResp
 	req.Header.Add("api-key", MAIL_KEY)
 
 	res, _ := http.DefaultClient.Do(req)
-
-	defer res.Body.Close()
 	var returnCode int
 
 	if res.StatusCode == 200 || res.StatusCode == 204 {
