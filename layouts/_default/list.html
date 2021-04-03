@@ -1,8 +1,9 @@
 {{ define "main" }}
-    <div class="archive {{ with .Site.Params.doNotLoadAnimations }} . {{ else }} animated fadeInDown {{ end }}">
-        <ul class="list-with-title">
-            {{ range .Data.Pages.GroupByDate "2006" }}
-                <div class="listing-title">{{ .Key }}</div>
+<div class="archive {{ with .Site.Params.doNotLoadAnimations }} . {{ else }} animated fadeInDown {{ end }}">
+    <ul class="list-with-title">
+        {{ .Content }}
+        {{ range .Data.Pages.GroupByDate "2006" }}
+        <div class="listing-title">{{ .Key }}</div>
                 {{ range .Pages }}
                     <ul class="listing">
                         <div class="listing-item">

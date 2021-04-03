@@ -51,6 +51,7 @@
     {{ end -}}
 
     <!-- JavaScript -->
+    <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     {{ $anatoleHeader := resources.Get "js/anatole-header.js" }}
     {{ $secureHeaderJS := $anatoleHeader |  resources.Minify | resources.Fingerprint }}
     <script type="text/javascript"
