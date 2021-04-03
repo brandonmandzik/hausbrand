@@ -20,20 +20,29 @@
         </form>
         <!-- Script -->
         <script>
-            async function subscribeUser(email) {
-                const emailAdress = email.value
+            async function subscribeUser(email) {       
+                if (emailIsValid(email.value)){
+                    var emailAddress = email.value
+                } else {
+                    alert("Please submit a valid e-mail adress. 😅")
+                    return
+                }
                 const baseURL = "https://awesome-nobel-4cfc38.netlify.app/.netlify/functions/subscribe"
-                const params = "?email=" + emailAdress
+                const params = "?email=" + emailAddress
                 var url = baseURL + params
                 // common fetch uses (https://dmitripavlutin.com/javascript-fetch-async-await/)
                 const response = await fetch(url, {
                     method: "GET",
                     mode: "cors"
                 })
-                response.text
-                .then(console.log)
-                
-                    
+                const data = await response.text()
+                    .then(alert)
+                    .catch(err => console.error("err", error))
+            }
+
+            // @Tyler McGinnis - https://ui.dev/validate-email-address-javascript/
+            function emailIsValid(email) {
+                return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)
             }
         </script>
     </div>
