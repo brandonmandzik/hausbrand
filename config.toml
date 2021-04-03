@@ -38,7 +38,7 @@ favicon = "favicons/"
 # example ["css/custom.css"]
 customCss = ["css/hausbrand.css"]
 # example ["js/custom.js"]
-customJs = [] 
+customJs = ["js/hausbrand.js"] 
 mainSections = ["blog"]
 images = ["images/site-feature-image.png"]
 doNotLoadAnimations = false

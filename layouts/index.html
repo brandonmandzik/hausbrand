@@ -1,69 +1,86 @@
 {{ define "main" }}
 
-    <div class="post {{ with .Site.Params.doNotLoadAnimations }} . {{ else }} animated fadeInDown {{ end }}">
-        <!-- landingPhoto -->
-        <img src="{{ .Params.image | absURL }}" alt="background picture" class="landingPhoto">
-        <div class="landingContent">
-            <!-- content -->
-            {{.Content}}
-            <!-- Subscribe -->
-            <form action="{{ .Site.Params.baseURL }}/.netlify/functions/subscribe" method="GET" class="subscribeFormBox">  
-                <div class="subscripeContainer">
-                    <div class="subscribeLabel">
-                        <label for="email">Subscribe to get updates</label>
-                    </div>
-                    <input type="text" placeholder="email@example.com" name="email" required>
+<div class="post {{ with .Site.Params.doNotLoadAnimations }} . {{ else }} animated fadeInDown {{ end }}">
+    <!-- landingPhoto -->
+    <img src="{{ .Params.image | absURL }}" alt="background picture" class="landingPhoto">
+    <div class="landingContent">
+        <!-- content -->
+        {{.Content}}
+        <!-- Subscribe -->
+        <form onsubmit="return false;" class="subscribeFormBox">
+            <div class="subscripeContainer">
+                <div class="subscribeLabel">
+                    <label for="email">Subscribe to get updates</label>
                 </div>
-                <div class="subscripeContainer">
-                    <input type="submit" class="submitBtn" value="Join the list!">
-                </div>
-            </form>
-        k</div>
-        
+                <input type="text" placeholder="email@example.com" name="email" required>
+            </div>
+            <div class="subscripeContainer">
+                <button onclick="subscribeUser(email)" class="submitBtn">Join the list!</button>
+            </div>
+        </form>
+        <!-- Script -->
+        <script>
+            async function subscribeUser(email) {
+                const emailAdress = email.value
+                const baseURL = "https://awesome-nobel-4cfc38.netlify.app/.netlify/functions/subscribe"
+                const params = "?email=" + emailAdress
+                var url = baseURL + params
+                // common fetch uses (https://dmitripavlutin.com/javascript-fetch-async-await/)
+                const response = await fetch(url, {
+                    method: "POST",
+                    headers: {
+                        "Access-Control-Allow-Origin": "*",
+                    },
+                })
+                const json = await response.json()
+                alert(json)
+            }
+        </script>
+    </div>
+</div>
+
+{{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
+{{ range $paginator.Pages }}
+
+<div class="post {{ with .Site.Params.doNotLoadAnimations }} . {{ else }} animated fadeInDown {{ end }}">
+    {{ if .Params.thumbnail }}
+    <div class="post-thumbnail">
+        <a href="{{ .RelPermalink }}">
+            <img src="{{ .Params.thumbnail | relURL }}" alt="Thumbnail image" loading="lazy">
+        </a>
+    </div>
+    {{ end }}
+    <div class="post-title">
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </h3>
+    </div>
+    <div class="post-content">
+        <div class="p_part">
+            <p>{{ if .Site.Params.fullPostContent }}{{ .Content }}{{ else }}{{ .Summary }}{{ end }}</p>
+            <!-- add read more -->
+            {{- if and (.Truncated) (.Site.Params.readMore) -}}
+            <a href='{{ .RelPermalink }}' class="read_more">{{ i18n "read_more" }}</a>
+            {{- end -}}
+        </div>
     </div>
 
-    {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
-    {{ range $paginator.Pages }}
-
-        <div class="post {{ with .Site.Params.doNotLoadAnimations }} . {{ else }} animated fadeInDown {{ end }}">
-            {{ if .Params.thumbnail }}
-            <div class="post-thumbnail">
-                <a href="{{ .RelPermalink }}">
-                <img src="{{ .Params.thumbnail | relURL }}" alt="Thumbnail image" loading="lazy">
-                </a>
-            </div>
-            {{ end }}
-            <div class="post-title">
-                <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a>
-                </h3>
-            </div>
-            <div class="post-content">
-                <div class="p_part">
-                    <p>{{ if .Site.Params.fullPostContent }}{{ .Content }}{{ else }}{{ .Summary }}{{ end }}</p>
-                    <!-- add read more -->
-                    {{- if and (.Truncated) (.Site.Params.readMore) -}}
-                        <a href='{{ .RelPermalink }}' class="read_more">{{ i18n "read_more" }}</a>
-                    {{- end -}}
-                </div>
-            </div>
-
-            <!--  -->
-            <div class="post-footer">
-                <div class="meta">
-                    <div class="info">
-                        <em class="fas fa-calendar-day"></em>
-                            <span class="date">{{ if isset .Site.Params "indexdateformat" }}
-                                                 {{ .Date.Format .Site.Params.indexDateFormat }}
-                                             {{ else }} {{.Date.Format "Mon, Jan 2, 2006"}}
-                                             {{ end }}</span>
-                        {{ with .Page.Params.Categories }}{{ partial "taxonomy/categories.html" . }}{{ end }}
-                        {{ with .Page.Params.Tags }}{{ partial "taxonomy/tags.html" . }}{{ end }}
-                    </div>
-                </div>
+    <!--  -->
+    <div class="post-footer">
+        <div class="meta">
+            <div class="info">
+                <em class="fas fa-calendar-day"></em>
+                <span class="date">{{ if isset .Site.Params "indexdateformat" }}
+                    {{ .Date.Format .Site.Params.indexDateFormat }}
+                    {{ else }} {{.Date.Format "Mon, Jan 2, 2006"}}
+                    {{ end }}</span>
+                {{ with .Page.Params.Categories }}{{ partial "taxonomy/categories.html" . }}{{ end }}
+                {{ with .Page.Params.Tags }}{{ partial "taxonomy/tags.html" . }}{{ end }}
             </div>
         </div>
-    {{ end }}
-    <div class="pagination">
-        {{ template "_internal/pagination.html" . }}
     </div>
+</div>
+{{ end }}
+<div class="pagination">
+    {{ template "_internal/pagination.html" . }}
+</div>
 {{ end }}
