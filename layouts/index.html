@@ -28,10 +28,12 @@
                 // common fetch uses (https://dmitripavlutin.com/javascript-fetch-async-await/)
                 const response = await fetch(url, {
                     method: "GET",
-                    mode: "no-cors"
+                    mode: "cors"
                 })
-                const json = await response.json()
-                alert(json)
+                response.text
+                .then(console.log)
+                
+                    
             }
         </script>
     </div>
