@@ -27,10 +27,8 @@
                 var url = baseURL + params
                 // common fetch uses (https://dmitripavlutin.com/javascript-fetch-async-await/)
                 const response = await fetch(url, {
-                    method: "POST",
-                    headers: {
-                        "Access-Control-Allow-Origin": "*",
-                    },
+                    method: "GET",
+                    mode: "no-cors"
                 })
                 const json = await response.json()
                 alert(json)
