@@ -6,8 +6,8 @@
         <div class="landingContent">
             <!-- content -->
             {{.Content}}
-            <!-- Subscripe -->
-            <form action="{{ .Site.Params.baseURL }}/.netlify/functions/subscribe" method="POST" class="subscribeFormBox">  
+            <!-- Subscribe -->
+            <form action="{{ .Site.Params.baseURL }}/.netlify/functions/subscribe" method="GET" class="subscribeFormBox">  
                 <div class="subscripeContainer">
                     <div class="subscribeLabel">
                         <label for="email">Subscribe to get updates</label>
@@ -18,7 +18,7 @@
                     <input type="submit" class="submitBtn" value="Join the list!">
                 </div>
             </form>
-        </div>
+        k</div>
         
     </div>
 
