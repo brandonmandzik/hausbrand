@@ -17,6 +17,8 @@
 {{- if (eq .Site.Params.simpleAnalytics.enable true) -}}
     {{- partial "analytics/simpleanalytics.html" . -}}
 {{- end -}}
+<!-- Netlify Identity Widget for registration -->
+<script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </body>
 
 </html>
