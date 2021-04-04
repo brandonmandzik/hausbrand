@@ -1,5 +1,5 @@
 +++
-author = ""
+author = "Bob"
 title = "Groovery"
 date = "2020-07-26"
 description = "Summer bangers only. Dinving deeper into the music treasuers. I found great aritist and tracks to heat up the floors. "
