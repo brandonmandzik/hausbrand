@@ -1,8 +1,8 @@
 +++
 aliases = ["posts", "articles", "blog", "showcase", "docs"]
-title = "Posts"
+title = "Index"
 author = "Bob"
-tags = ["index"]
+tags = ["Work"]
 layout = "work"
 +++
 # Workspace
