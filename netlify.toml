@@ -32,6 +32,12 @@ HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
 from = "/admin/*"
+to = "/admin/"
+status = 404
+force = true
+
+[[redirects]]
+from = "/admin/*"
 to = "/admin/:splat"
 status = 200
 force = true
