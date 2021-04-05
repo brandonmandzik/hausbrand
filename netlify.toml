@@ -36,4 +36,4 @@ from = "/admin/#/*"
 to = "/admin/:splat"
 status = 200
 force = true
-conditions = {Role = "owner"}
+conditions = {Role = "tester"}
