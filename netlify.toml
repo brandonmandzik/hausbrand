@@ -36,8 +36,3 @@ to = "/admin/:splat"
 status = 200
 force = true
 conditions = {Role = ["owner"]}
-[[redirects]]
-from = "/admin/*"
-to = "/admin/"
-status = 404
-force = true
