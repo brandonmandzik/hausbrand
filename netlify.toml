@@ -31,9 +31,13 @@ HUGO_VERSION = "0.75.1"
 HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
-
-from = "/admin/#/*"
-to = "/admin/:splat"
+from = "/work/*"
+to = "/work/:splat"
 status = 200
 force = true
-conditions = {Role = ["tester"]}
+conditions = {Role = ["owner"]}
+[[redirects]]
+from = "/work/*"
+to = "/"
+status = 404
+force = true
