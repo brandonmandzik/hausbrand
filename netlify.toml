@@ -31,14 +31,9 @@ HUGO_VERSION = "0.75.1"
 HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
-from = "/admin/*"
-to = "/admin/"
-status = 404
-force = true
 
-[[redirects]]
-from = "/admin/*"
+from = "/admin/#/*"
 to = "/admin/:splat"
 status = 200
 force = true
-conditions = {Role = ["owner"]}
+conditions = {Role = "owner"}
