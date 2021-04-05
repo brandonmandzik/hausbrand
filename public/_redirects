@@ -1,4 +1,2 @@
-# Role-based redirects
-
-/admin/*                200!    Role=owner
-/admin/*    /work   401!    
+/admin/*			    200!	Role=owner
+/admin/*	/blog	401!
