@@ -29,15 +29,3 @@ HUGO_VERSION = "0.75.1"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
-
-[[redirects]]
-from = "/work/*"
-to = "/work/:splat"
-status = 200
-force = true
-conditions = {Role = ["owner"]}
-[[redirects]]
-from = "/work/*"
-to = "/"
-status = 404
-force = true
