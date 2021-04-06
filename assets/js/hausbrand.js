@@ -98,7 +98,7 @@ const login = async (targetUrl) => {
     try {
         console.log("Logging in")
         const options = {
-            redirect_uri: window.location.origin
+            redirect_uri: window.location.origin + "/work"
         };
 
         if (targetUrl) {
