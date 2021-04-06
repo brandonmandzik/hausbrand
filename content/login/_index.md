@@ -1,9 +1,10 @@
----
-title: "Login"
-date: 2021-04-06T10:28:46+02:00
-draft: true
-layout: "login"
----
++++
+aliases = ["login"]
+title = "Work LogIn"
+author = "Bob"
+tags = ["Work"]
+layout = "login"
++++
 
 # Please Login
 
