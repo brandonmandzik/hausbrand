@@ -1,22 +1,30 @@
 {{ define "main" }}
 <div class="archive {{ with .Site.Params.doNotLoadAnimations }} . {{ else }} animated fadeInDown {{ end }}">
     <ul class="list-with-title">
-        {{ .Content }}
-        {{ range .Data.Pages.GroupByDate "2006" }}
-        <div class="listing-title">{{ .Key }}</div>
-                {{ range .Pages }}
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
-                                <div class="post-time"><span class="date">{{ if isset .Site.Params "listdateformat" }} 
-                                                                            {{ .Date.Format .Site.Params.listDateFormat }}
-                                                                            {{ else }} {{.Date.Format "Jan 2"}} 
-                                                                            {{ end }}</span></div>
-                            </div>
-                        </div>
-                    </ul>
-                {{ end }}
+        <h1>Please Login</h1>
+        <p>
+            To see this section you need an invitation by the website adminitrator. Self registration is not possible.
+        </p>
+        <div class="hidden" id="gated-content">
+            <button id="btn-login" disabled="true" onclick="login()">Log in</button>
+            <button id="btn-logout" disabled="true" onclick="logout()">Log out</button>
+            {{ .Content }}
+            {{ range .Data.Pages.GroupByDate "2006" }}
+            <div class="listing-title">{{ .Key }}</div>
+            {{ range .Pages }}
+            <ul class="listing">
+                <div class="listing-item">
+                    <div class="listing-post"><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+                        <div class="post-time"><span class="date">{{ if isset .Site.Params "listdateformat" }}
+                                {{ .Date.Format .Site.Params.listDateFormat }}
+                                {{ else }} {{.Date.Format "Jan 2"}}
+                                {{ end }}</span></div>
+                    </div>
+                </div>
+            </ul>
             {{ end }}
-        </ul>
-    </div>
+            {{ end }}
+        </div>
+    </ul>
+</div>
 {{ end }}
