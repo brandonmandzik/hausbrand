@@ -35,10 +35,12 @@ const requireAuth = async (targetUrl) => {
 const updateUI = async () => {
     try {
         const isAuthenticated = await auth0.isAuthenticated();
-
-        document.getElementById("btn-logout").disabled = !isAuthenticated
-        document.getElementById("btn-login").disabled = isAuthenticated
-
+        
+        if (document.getElementById("btn-logout")){
+            document.getElementById("btn-logout").disabled = !isAuthenticated
+            document.getElementById("btn-login").disabled = isAuthenticated
+        }
+            
         if (isAuthenticated) {
             var gatedElements = document.getElementsByClassName("gated-content")
             for (var i = gatedElements.length - 1; i >= 0; i--) {
@@ -100,12 +102,12 @@ const login = async (targetUrl) => {
     try {
         console.log("Logging in")
         const options = {
-            redirect_uri: window.location.origin
+            redirect_uri: window.location.origin + "/work"
         };
 
-        if (targetUrl) {
-            options.appState = { targetUrl };
-        }
+        // if (targetUrl) {
+        //     options.appState = { targetUrl };
+        // }
 
         await auth0.loginWithRedirect(options);
     } catch (err) {
