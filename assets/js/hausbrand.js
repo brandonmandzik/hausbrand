@@ -35,6 +35,9 @@ const requireAuth = async (targetUrl) => {
 const updateUI = async () => {
     try {
         const isAuthenticated = await auth0.isAuthenticated();
+        
+        document.getElementById("btn-logout").disabled = !isAuthenticated
+        document.getElementById("btn-login").disabled = isAuthenticated
 
         if (isAuthenticated) {
             var gatedElements = document.getElementsByClassName("gated-content")
@@ -48,8 +51,6 @@ const updateUI = async () => {
                 // gatedElements[i].classList.add("gated-content");
             }
         }
-        document.getElementById("btn-logout").disabled = !isAuthenticated
-        document.getElementById("btn-login").disabled = isAuthenticated
     } catch (err) {
         console.log("UI update Error!", err)
     }
