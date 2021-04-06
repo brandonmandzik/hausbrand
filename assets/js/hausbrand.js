@@ -35,7 +35,7 @@ const requireAuth = async (targetUrl) => {
 const updateUI = async () => {
     try {
         const isAuthenticated = await auth0.isAuthenticated();
-        
+
         document.getElementById("btn-logout").disabled = !isAuthenticated
         document.getElementById("btn-login").disabled = isAuthenticated
 
@@ -70,6 +70,7 @@ window.onload = async () => {
     }
 
     const isAuthenticated = await auth0.isAuthenticated()
+    console.log("> User auth:   ", isAuthenticated)
 
     if (isAuthenticated) {
         console.log("> User is authenticated");
