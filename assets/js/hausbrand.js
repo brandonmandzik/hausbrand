@@ -21,6 +21,7 @@ const configureClient = async () => {
     })
 }
 
+// When accessing resitricted content, this method will redirect to the login page
 const requireAuth = async (targetUrl) => {
     const isAuthenticated = await auth0.isAuthenticated();
 
@@ -36,11 +37,13 @@ const updateUI = async () => {
     try {
         const isAuthenticated = await auth0.isAuthenticated();
         
+        // Check for null -> avoid error
         if (document.getElementById("btn-logout")){
             document.getElementById("btn-logout").disabled = !isAuthenticated
             document.getElementById("btn-login").disabled = isAuthenticated
         }
             
+        // Gate content based on user role
         if (isAuthenticated) {
             var gatedElements = document.getElementsByClassName("gated-content")
             for (var i = gatedElements.length - 1; i >= 0; i--) {
@@ -63,10 +66,11 @@ const updateUI = async () => {
  * @returns 
  */
 
-// Checks User state .Onload
+// Checks User state on window.Onload
 window.onload = async () => {
     await configureClient()
 
+    // Regex check to redirect to login
     if (/\/work\/.+/.test(window.location.pathname)){
         requireAuth(window.location.pathname)
     }
@@ -98,6 +102,7 @@ window.onload = async () => {
  * LOGIN & SIGN-UP METHODS  
  */
 
+// a successful login redirects the user to the origin/work page
 const login = async (targetUrl) => {
     try {
         console.log("Logging in")
@@ -105,16 +110,13 @@ const login = async (targetUrl) => {
             redirect_uri: window.location.origin + "/work"
         };
 
-        // if (targetUrl) {
-        //     options.appState = { targetUrl };
-        // }
-
         await auth0.loginWithRedirect(options);
     } catch (err) {
         console.log("Login failed", err)
     }
 }
 
+// log the user out and direct to the index page
 const logout = () => {
     try {
         console.log("Logging out");
