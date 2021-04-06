@@ -5,9 +5,9 @@
         <p>
             To see this section you need an invitation by the website adminitrator. Self registration is not possible.
         </p>
-        <div class="hidden" id="gated-content">
-            <button id="btn-login" disabled="true" onclick="login()">Log in</button>
-            <button id="btn-logout" disabled="true" onclick="logout()">Log out</button>
+        <button id="btn-login" disabled="true" onclick="login()">Log in</button>
+        <button id="btn-logout" disabled="true" onclick="logout()">Log out</button>
+        <div class="gated-content">
             {{ .Content }}
             {{ range .Data.Pages.GroupByDate "2006" }}
             <div class="listing-title">{{ .Key }}</div>

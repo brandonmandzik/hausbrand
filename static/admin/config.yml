@@ -27,9 +27,10 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Author", name: "author", widget: "hidden", default:"Bob"}
+      - {label: "Author", name: "author", widget: "hidden", default: "Bob"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Tags", name: "tags", widget: "list", default: ["Hausbrand"]}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "workSingle"}

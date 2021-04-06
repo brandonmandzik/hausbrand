@@ -43,9 +43,16 @@ const updateUI = async () => {
     document.getElementById("btn-login").disabled = isAuthenticated
 
     if (isAuthenticated) {
-        document.getElementById("gated-content").classList.remove("hidden");
+        let gatedElements = document.getElementsByClass("gated-content")
+        for (e in gatedElements){
+            e.classList.remove("gated-content")
+        }
     } else {
-        document.getElementById("gated-content").classList.add("hidden");
+        document.getElementById("gated-content").remove();
+        let gatedElements = document.getElementsByClass("gated-content")
+        for (e in gatedElements){
+            e.remove("")
+        }
     }
 }
 

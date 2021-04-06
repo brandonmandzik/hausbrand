@@ -9,7 +9,8 @@ tags = [
     "Ableton Live",
     "Kick",
     "90s Vocals",
-]
+] 
+layout = "workSingle"
 +++
 ---
 
