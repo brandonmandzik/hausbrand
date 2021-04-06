@@ -66,7 +66,7 @@ window.onload = async () => {
     await configureClient()
 
     if (/\/work\/.+/.test(window.location.pathname)){
-        requireAuth("/work")
+        requireAuth(window.location.pathname)
     }
 
     const isAuthenticated = await auth0.isAuthenticated()
