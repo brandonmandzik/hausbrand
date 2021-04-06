@@ -38,20 +38,19 @@ window.onload = async () => {
 
 const updateUI = async () => {
     const isAuthenticated = await auth0.isAuthenticated();
-
+    console.log(isAuthenticated)
     document.getElementById("btn-logout").disabled = !isAuthenticated
     document.getElementById("btn-login").disabled = isAuthenticated
 
     if (isAuthenticated) {
-        let gatedElements = document.getElementsByClass("gated-content")
-        for (e in gatedElements){
-            e.classList.remove("gated-content")
+        var gatedElements = document.getElementsByClassName("gated-content")
+        for(var i = gatedElements.length - 1; i >= 0; i--){
+            gatedElements[i].classList.remove("gated-content")
         }
     } else {
-        document.getElementById("gated-content").remove();
-        let gatedElements = document.getElementsByClass("gated-content")
-        for (e in gatedElements){
-            e.remove("")
+        var gatedElements = document.getElementsByClassName("gated-content")
+        for(var i = gatedElements.length - 1; i >= 0; i--){
+            gatedElements[i].remove();
         }
     }
 }
