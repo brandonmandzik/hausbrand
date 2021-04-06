@@ -18,6 +18,10 @@
     margin-bottom: auto;
 }
 
+.hidden {
+    display: none;
+}
+
 .subscripeContainer{
     margin: 3% 0 3% 0;
 }
