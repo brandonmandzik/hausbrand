@@ -13,8 +13,12 @@ const fetchAuthConfig = () => fetch("/auth_config.json")
 
 // configure auth0 client for furhter usage
 const configureClient = async () => {
-    const response = await fetchAuthConfig()
-    const config = await response.json()
+    try {
+        const response = await fetchAuthConfig()
+        const config = await response.json()
+    } catch (err) {
+        console.log("Failed loading configs ...", err)
+    }
 
     auth0 = await createAuth0Client({
         domain: config.domain,
@@ -84,7 +88,6 @@ window.onload = async () => {
     }
 
     const isAuthenticated = await auth0.isAuthenticated()
-    console.log("> User auth:   ", isAuthenticated)
 
     if (isAuthenticated) {
         console.log("> User is authenticated");
