@@ -77,8 +77,17 @@ input[type=text] {
     border: 2px solid #6F6F6F;
 }
 
-@media screen and (max-width: 600px) {
-    .subscribeFormBox {}
+.txt-primary{
+    transform: translate(50%,-50%);
+    text-transform: uppercase;
+    font-family: verdana;
+    font-weight: 700;
+    text-shadow: 0px 2px 1px #919191,
+    1px 10px 6px rgba(100,100,100,0.4),
+    1px 14px 10px rgba(100,100,100,0.2),
+    1px 17px 35px rgba(100,100,100,0.2),
+    1px 22px 60px rgba(100,100,100,0.4);
+    color: #EC5E29;
 }
 
 /* 
@@ -109,4 +118,9 @@ input[type=text] {
     margin-top: 5%;
     margin-bottom: 5%;
     
+}
+
+
+@media screen and (max-width: 600px) {
+    .subscribeFormBox {}
 }
