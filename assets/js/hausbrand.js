@@ -16,16 +16,16 @@ const configureClient = async () => {
     try {
         const response = await fetchAuthConfig()
         const config = await response.json()
+        auth0 = await createAuth0Client({
+            domain: config.domain,
+            client_id: config.clientId,
+            useRefreshTokens: true
+    
+        })
     } catch (err) {
         console.log("Failed loading configs ...", err)
     }
 
-    auth0 = await createAuth0Client({
-        domain: config.domain,
-        client_id: config.clientId,
-        useRefreshTokens: true
-
-    })
 }
 
 // When accessing resitricted content, this method will redirect to the login page
