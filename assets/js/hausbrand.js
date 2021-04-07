@@ -18,7 +18,9 @@ const configureClient = async () => {
 
     auth0 = await createAuth0Client({
         domain: config.domain,
-        client_id: config.clientId
+        client_id: config.clientId,
+        useRefreshTokens: true
+
     })
 }
 
