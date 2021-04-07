@@ -3,11 +3,10 @@ author = "Hugo Authors"
 image = "images/landingpage.jpg"
 +++
 
-## Feel the Music.
-## Feel the Electricity.
-## Be part of the Flame.
-
+### - NEW ERA -
 ---
-My name is Bob. Born and raised in Berln, I'm totally inspiried by the culture and the people there. Driven by the electric pulse of the city, I produce and perform dance music. If you're searching for the hottest dance set. Let me ignite the fire. 
+Do you remember the sound that came from chicago back then? The one with the stomping bass, clappy hands, and groovy Highats? The sound that survied decades of club eras? And is still played in the best techno clubs you can image ... 
+yes, we speak about __House__ music. The sound that defines my life and rythem. As an artist I try to show the _true beauty_ of the genre and step out from the shadows of techno music. 
+Let me set the fire for magical moments.
 
 ---   

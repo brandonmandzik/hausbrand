@@ -1,12 +1,20 @@
 {{ define "main" }}
 <div class="archive {{ with .Site.Params.doNotLoadAnimations }} . {{ else }} animated fadeInDown {{ end }}">
     <ul class="list-with-title">
-        <h1>Please Login</h1>
-        <p>
-            To see this section you need an invitation by the website adminitrator. Self registration is not possible.
-        </p>
-        <button id="btn-login" disabled="true" onclick="login()">Log in</button>
-        <button id="btn-logout" disabled="true" onclick="logout()">Log out</button>
+        <div class="gated-content">
+            <h1>You're verified</h1>
+        </div>
+        <div id="gated-content-rev">
+            <h1>Restricted Content</h1>
+            <p>
+                Please <strong>login</strong> to verify your identiy. <br>
+                The registration process can only be done trough an invitation by the website administrator.
+            </p>
+        </div>
+        <div class="btn-grp">
+            <button class="btn-two" id="btn-login" disabled="true" onclick="login()">Log in</button>
+            <button class="btn-two gated-content" id="btn-logout" disabled="true" onclick="logout()">Log out</button>
+        </div>
         <div class="gated-content">
             {{ .Content }}
             {{ range .Data.Pages.GroupByDate "2006" }}

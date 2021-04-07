@@ -1,4 +1,4 @@
-.landingPhoto{
+.landingPhoto {
     display: block;
     width: 100%;
     margin-left: auto;
@@ -14,7 +14,7 @@
     margin-bottom: 15%;
 }
 
-.mainSection{
+.mainSection {
     margin-bottom: auto;
 }
 
@@ -22,26 +22,27 @@
     display: none;
 }
 
-.subscripeContainer{
+.subscripeContainer {
     margin: 3% 0 3% 0;
 }
 
-.subscribeFormBox{
+.subscribeFormBox {
     width: 40%;
     min-width: 250px;
-    margin: 3% auto 0 auto ;
+    margin: 3% auto 0 auto;
     padding: 0.5% 0;
     border: 2px solid #A8A8B1;
     background-color: var(--sb-box);
     border-radius: 5px;
 }
 
-.subscribeLabel{
+.subscribeLabel {
     color: #2A292D;
     margin-bottom: 4%;
     font-family: 'Verdana', sans-serif;
 }
-.aboutPhoto{
+
+.aboutPhoto {
     display: block;
     position: static;
     width: 100%;
@@ -50,7 +51,8 @@
 }
 
 .submitBtn {
-    background-color: #467C8F; /* Green */
+    background-color: #467C8F;
+    /* Green */
     border: none;
     border-radius: 5px;
     color: white;
@@ -64,17 +66,47 @@
 }
 
 .submitBtn:hover {
-    background-color: #d55425; /* Green */
+    background-color: #d55425;
+    /* Green */
 }
 
 input[type=text] {
     margin: auto;
     padding: 5% 7%;
     font-size: 16px;
-    border: 2px solid #3785b6b5;
-  }
+    border: 2px solid #6F6F6F;
+}
 
 @media screen and (max-width: 600px) {
-    .subscribeFormBox{
-    }
+    .subscribeFormBox {}
+}
+
+/* 
+========================
+      BUTTON (https://www.fabriziovanmarciano.com/button-styles/)
+========================
+*/
+
+.btn-two {
+    color: #494949 !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #ffffff;
+    padding: 15px 20px;
+    border: 4px solid #6F6F6F !important;
+    display: inline-block;
+    transition: all 0.4s ease 0s;
+}
+
+.btn-two:hover:enabled {
+    color: #ffffff !important;
+    background: #da7636;
+    border-color: #EC5E29 !important;
+    transition: all 0.4s ease 0s;
+}
+
+.btn-grp {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
 }

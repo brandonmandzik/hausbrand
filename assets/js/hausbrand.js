@@ -1,4 +1,5 @@
 // https://manage.auth0.com/dashboard/eu/hausbraand/applications/aM2OX9ZBJSzRupNYeWWtPXZauw3OdLIG/quickstart
+// https://github.com/auth0-samples/auth0-javascript-samples/blob/7bb912c0aa5db7735f3daf5ffcadbfc4a6e02d4b/01-Login/public/js/app.js
 
 /**
  * CONFIGURATION
@@ -44,16 +45,20 @@ const updateUI = async () => {
         }
             
         // Gate content based on user role
+
+        // UI for YES
         if (isAuthenticated) {
             var gatedElements = document.getElementsByClassName("gated-content")
             for (var i = gatedElements.length - 1; i >= 0; i--) {
                 gatedElements[i].classList.remove("gated-content");
             }
-        } else {
+            document.getElementById("gated-content-rev").classList.add("gated-content")
+        } 
+        // UI for NO
+        else {
             var gatedElements = document.getElementsByClassName("gated-content")
             for (var i = gatedElements.length - 1; i >= 0; i--) {
                 gatedElements[i].parentNode.removeChild(gatedElements[i]);
-                // gatedElements[i].classList.add("gated-content");
             }
         }
     } catch (err) {
@@ -71,6 +76,7 @@ window.onload = async () => {
     await configureClient()
 
     // Regex check to redirect to login
+    // https://www.regextester.com
     if (/\/work\/.+/.test(window.location.pathname)){
         requireAuth(window.location.pathname)
     }
