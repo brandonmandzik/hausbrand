@@ -13,8 +13,8 @@ layout: workSingle
 ---
 - - -
 
-Elias turned the speeddown! He recorded a downtempo that is just pleasuring to hear. Check it out and ride the wave!
+Elias turned the speed down! He recorded a downtempo set that is just pleasuring to hear. Check it out and ride the wave!
 
-- click me
+* click me
 
 > [E. Almarales - Schneckno](https://soundcloud.app.goo.gl/XvdNqccVEvCjpvkVA)
