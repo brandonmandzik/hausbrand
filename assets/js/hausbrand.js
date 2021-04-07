@@ -19,8 +19,8 @@ const configureClient = async () => {
         auth0 = await createAuth0Client({
             domain: config.domain,
             client_id: config.clientId,
-            useRefreshTokens: true
-    
+            useRefreshTokens: true,
+            cacheLocation: 'localstorage'
         })
     } catch (err) {
         console.log("Failed loading configs ...", err)
