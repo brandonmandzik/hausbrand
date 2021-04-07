@@ -107,7 +107,7 @@ a:visited {
 
 a:hover,
 a:active {
-    color: #2660ab;
+    color: #da7636;
 }
 
 /*basic styles ends*/
@@ -216,7 +216,7 @@ a:active {
 }
 
 .page-top .nav a:hover {
-    color: #2660ab;
+    color: #da7636;
 }
 
 .page-top .nav a.current {
@@ -335,7 +335,7 @@ a:active {
 }
 
 .sidebar .social-links a:hover {
-    color: #2660ab;
+    color: #da7636;
 }
 
 .post {
@@ -387,7 +387,7 @@ a:active {
 }
 
 .post .post-content a:hover {
-    color: #2F69B3;
+    color: #da7636;
 }
 
 .post .post-content h3 {
@@ -468,7 +468,7 @@ a:active {
 }
 
 .post .post-footer .meta a:hover {
-    color: #2660ab;
+    color: #da7636;
 }
 
 .post .post-footer .meta i {
@@ -596,7 +596,7 @@ a:active {
 }
 
 .footer a:hover {
-    color: #2660ab;
+    color: #da7636;
 }
 
 /*for archive*/
@@ -645,7 +645,7 @@ a:active {
 }
 
 .list-with-title .listing .listing-post a:hover {
-    color: #2660ab;
+    color: #da7636;
 }
 
 /* share */
@@ -669,7 +669,7 @@ a:active {
 }
 
 .evernote a:hover {
-    color: #ED6243;
+    color: #da7636;
     padding: 11px;
 }
 
@@ -677,7 +677,7 @@ a:active {
     width: 32px;
     height: 32px;
     border-radius: 300px;
-    background-color: #ED6243;
+    background-color: #da7636;
     margin-right: 5px;
 }
 
@@ -687,7 +687,7 @@ a:active {
 }
 
 .weibo a:hover {
-    color: #BD4226;
+    color: #da7636;
 }
 
 .twitter {
@@ -704,7 +704,7 @@ a:active {
 }
 
 .twitter a:hover {
-    color: #4B9ECE;
+    color: #da7636;
 }
 
 /* about */
