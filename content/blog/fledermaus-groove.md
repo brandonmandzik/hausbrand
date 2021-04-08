@@ -10,6 +10,7 @@ tags:
   - Set
   - 133-140BPM
 ---
+---
 Elias Almarales released lastly his new set. His driving kicks range from 133 to 140 BPM. This establishes a perfect night groove! 
 
 Enjoy the music taste from the second half of the 'Ultraschnell'-Familiy!
