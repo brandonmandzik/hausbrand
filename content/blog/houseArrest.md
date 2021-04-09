@@ -2,7 +2,7 @@
 author = "Bob"
 title = "House Arrest"
 date = "2020-10-23"
-description = "Lockdown vibes are not kicking ... I spend most of my time thinking about partying againg. The music I have and produce is everything I have currently"
+description = "Lockdown vibes are not kicking ... I spend most of my time thinking about partying again. The music I mix and produce is everything I have currently"
 tags = [
     "Progressiv House",
     "DJ",

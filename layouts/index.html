@@ -1,11 +1,10 @@
 {{ define "main" }}
-
 <div class="post {{ with .Site.Params.doNotLoadAnimations }} . {{ else }} animated fadeInDown {{ end }}">
-    <!-- landingPhoto -->
+    <!-- Landing Photo -->
     <img src="{{ .Params.image | absURL }}" alt="background picture" class="landingPhoto">
     <div class="landingContent">
-        <!-- content -->
-        {{.Content}}
+        <!-- Content -->
+        {{ .Content }}
         <!-- Subscribe -->
         <form onsubmit="return false;" class="subscribeFormBox">
             <div class="subscripeContainer">
@@ -20,9 +19,9 @@
         </form>
         <!-- Script -->
         <script>
-            async function subscribeUser(email) {       
+            async function subscribeUser(email) {
                 var emailAddress
-                if (emailIsValid(email.value)){
+                if (emailIsValid(email.value)) {
                     emailAddress = email.value
                 } else {
                     alert("Please submit a valid e-mail adress. 😅")

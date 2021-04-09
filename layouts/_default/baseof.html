@@ -1,22 +1,24 @@
+<!-- baseof.html -->
 <!DOCTYPE html>
 <html lang="{{- site.Language.Lang -}}" data-theme="{{- .Site.Params.displayMode -}}">
 {{- partial "head.html" . -}}
+
 <body>
 
-{{- partial "sidebar.html" . -}}
-{{- partial "navbar.html" . -}}
-<div class="main">
-    <div class="autopagerize_page_element">
-        <div class="content">
-            {{- block "main" . }}{{- end }}
+    {{- partial "sidebar.html" . -}}
+    {{- partial "navbar.html" . -}}
+    <div class="main">
+        <div class="autopagerize_page_element">
+            <div class="content">
+                {{- block "main" . }}{{- end }}
+            </div>
         </div>
     </div>
-</div>
 
-{{- partial "footer.html" . -}}
-{{- if (eq .Site.Params.simpleAnalytics.enable true) -}}
+    {{- partial "footer.html" . -}}
+    {{- if (eq .Site.Params.simpleAnalytics.enable true) -}}
     {{- partial "analytics/simpleanalytics.html" . -}}
-{{- end -}}
+    {{- end -}}
 </body>
 
 </html>
