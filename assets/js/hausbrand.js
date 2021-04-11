@@ -85,7 +85,7 @@ const decryptLinks = () => {
             mode: "cors"
         })
         const cipher = await response.text()
-        encryptedLinks[i].setAttribute("href", cipher))
+        encryptedLinks[i].setAttribute("href", cipher)
         console.log(cipher)    
     }
 }
