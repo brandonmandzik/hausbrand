@@ -16,5 +16,4 @@ layout: workSingle
 The ' Ultraschnell ' Boys recorded spontaniously a new set. A pure musical mixture from these guys. Together they are achieving things beyongs the own expectation.
 
 - click me
-
-> ['Ultraschnell' - B2B](https://soundcloud.app.goo.gl/NmLKD4kvknnEto78A)
+> {{< soundcloudPrivate "Ultraschnell - B2B" d76a7fa4e713c9882ba590dcb29543942e84484bf1964ec81ff2daa8ca69d1078482d4f167637999771f18a5ef1780f1 >}}
