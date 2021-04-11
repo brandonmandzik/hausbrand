@@ -80,11 +80,13 @@ const decryptLinks = () => {
         var cipher = encryptedLinks[i].getAttribute("href")
         console.log(cipher)
         // make request
-        fetch('https://hausbrand.netlify.app/.netlify/functions/linkDecrypt?ct=' + cipher)
-            .then(response => response.text())
-            // paste result
-            .then(link => encryptedLinks[i].setAttribute("href", link))
-        console.log(link)    
+        const apiResponse = await fetch('https://hausbrand.netlify.app/.netlify/functions/linkDecrypt?ct=' + cipher, {
+            method: "GET",
+            mode: "cors"
+        })
+        const cipher = await response.text()
+        encryptedLinks[i].setAttribute("href", cipher))
+        console.log(cipher)    
     }
 }
 
