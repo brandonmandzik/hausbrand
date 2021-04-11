@@ -78,11 +78,13 @@ const decryptLinks = () => {
     for (var i = encryptedLinks.length - 1; i >= 0; i--) {
         // get link
         var cipher = encryptedLinks[i].getAttribute("href")
+        console.log(cipher)
         // make request
         fetch('https://hausbrand.netlify.app/.netlify/functions/linkDecrypt?ct=' + cipher)
             .then(response => response.text())
             // paste result
             .then(link => encryptedLinks[i].setAttribute("href", link))
+        console.log(link)    
     }
 }
 
