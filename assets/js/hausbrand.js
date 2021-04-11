@@ -65,11 +65,24 @@ const updateUI = async () => {
             var gatedElements = document.getElementsByClassName("gated-content")
             for (var i = gatedElements.length - 1; i >= 0; i--) {
                 gatedElements[i].parentNode.removeChild(gatedElements[i]);
-            } 
+            }
 
         }
     } catch (err) {
         console.log("UI update Error!", err)
+    }
+}
+
+const decryptLinks = () => {
+    var encryptedLinks = document.getElementsByClassName("privateLink")
+    for (var i = encryptedLinks.length - 1; i >= 0; i--) {
+        // get link
+        var cipher = encryptedLinks[i].getAttribute("href")
+        // make request
+        fetch('https://hausbrand.netlify.app/.netlify/functions/linkDecrypt?ct=' + cipher)
+            .then(response => response.text())
+            // paste result
+            .then(link => encryptedLinks[i].setAttribute("href", link))
     }
 }
 
@@ -91,6 +104,7 @@ window.onload = async () => {
 
     if (isAuthenticated) {
         console.log("> User is authenticated");
+        decryptLinks();
         updateUI();
         return;
     }
