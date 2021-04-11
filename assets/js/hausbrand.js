@@ -73,7 +73,7 @@ const updateUI = async () => {
     }
 }
 
-const decryptLinks = () => {
+const decryptLinks = async () => {
     var encryptedLinks = document.getElementsByClassName("privateLink")
     for (var i = encryptedLinks.length - 1; i >= 0; i--) {
         // get link
@@ -83,11 +83,12 @@ const decryptLinks = () => {
         const baseURL = "https://hausbrand.netlify.app/.netlify/functions/linkDecrypt"
         const params = "?ct=" + cipher
         var url = baseURL + params
-        const response = await fetch(url, {
+        const data = await fetch(url, {
             method: "GET",
             mode: "cors"
         })
-        var plain = await response.text()
+        var plain = await data.text()
+            .catch(err => console.error("err", error))
         encryptedLinks[i].setAttribute("href", plain)
         console.log(plain)
     }
