@@ -43,13 +43,13 @@ const requireAuth = async (targetUrl) => {
 const updateUI = async () => {
     try {
         const isAuthenticated = await auth0.isAuthenticated();
-        
+
         // Check for null -> avoid error
-        if (document.getElementById("btn-logout")){
+        if (document.getElementById("btn-logout")) {
             document.getElementById("btn-logout").disabled = !isAuthenticated
             document.getElementById("btn-login").disabled = isAuthenticated
         }
-            
+
         // Gate content based on user role
 
         // UI for YES
@@ -59,13 +59,14 @@ const updateUI = async () => {
                 gatedElements[i].classList.remove("gated-content");
             }
             document.getElementById("gated-content-rev").classList.add("gated-content")
-        } 
+        }
         // UI for NO
         else {
             var gatedElements = document.getElementsByClassName("gated-content")
             for (var i = gatedElements.length - 1; i >= 0; i--) {
                 gatedElements[i].parentNode.removeChild(gatedElements[i]);
-            }
+            } 
+
         }
     } catch (err) {
         console.log("UI update Error!", err)
@@ -80,10 +81,9 @@ const updateUI = async () => {
 // Checks User state on window.Onload
 window.onload = async () => {
     await configureClient()
-
     // Regex check to redirect to login
     // https://www.regextester.com
-    if (/\/work\/.+/.test(window.location.pathname)){
+    if (/\/work\/.+/.test(window.location.pathname)) {
         requireAuth(window.location.pathname)
     }
 
@@ -108,6 +108,7 @@ window.onload = async () => {
     }
     updateUI()
 }
+
 
 /**
  * LOGIN & SIGN-UP METHODS  

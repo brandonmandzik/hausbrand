@@ -15,6 +15,7 @@
             <button class="btn-two" id="btn-login" disabled="true" onclick="login()">Log in</button>
             <button class="btn-two gated-content" id="btn-logout" disabled="true" onclick="logout()">Log out</button>
         </div>
+        <div id="gate"></div>
         <div class="gated-content">
             {{ .Content }}
             {{ range .Data.Pages.GroupByDate "2006" }}
@@ -33,6 +34,7 @@
             {{ end }}
             {{ end }}
         </div>
+        <div id="gate2"></div>
     </ul>
 </div>
 {{ end }}
