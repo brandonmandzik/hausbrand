@@ -1,108 +1,315 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Website of Jane Doe</title>
-    <link>https://example.com/tags/</link>
-    <description>Recent content in Tags on Website of Jane Doe</description>
+    <title>Tags on Hausbrand</title>
+    <link>https://hausbrand.netlify.app/tags/</link>
+    <description>Recent content in Tags on Hausbrand</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 13 Mar 2021 21:47:41 +0000</lastBuildDate><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Apr 2021 11:23:15 +0000</lastBuildDate><atom:link href="https://hausbrand.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>demo</title>
-      <link>https://example.com/tags/demo/</link>
-      <pubDate>Sat, 13 Mar 2021 21:47:41 +0000</pubDate>
+      <title>133-140BPM</title>
+      <link>https://hausbrand.netlify.app/tags/133-140bpm/</link>
+      <pubDate>Wed, 07 Apr 2021 11:23:15 +0000</pubDate>
       
-      <guid>https://example.com/tags/demo/</guid>
+      <guid>https://hausbrand.netlify.app/tags/133-140bpm/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>shortcode</title>
-      <link>https://example.com/tags/shortcode/</link>
-      <pubDate>Sat, 13 Mar 2021 21:47:41 +0000</pubDate>
+      <title>Elias</title>
+      <link>https://hausbrand.netlify.app/tags/elias/</link>
+      <pubDate>Wed, 07 Apr 2021 11:23:15 +0000</pubDate>
       
-      <guid>https://example.com/tags/shortcode/</guid>
+      <guid>https://hausbrand.netlify.app/tags/elias/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>css</title>
-      <link>https://example.com/tags/css/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <title>Set</title>
+      <link>https://hausbrand.netlify.app/tags/set/</link>
+      <pubDate>Wed, 07 Apr 2021 11:23:15 +0000</pubDate>
       
-      <guid>https://example.com/tags/css/</guid>
+      <guid>https://hausbrand.netlify.app/tags/set/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>html</title>
-      <link>https://example.com/tags/html/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <title>Techno</title>
+      <link>https://hausbrand.netlify.app/tags/techno/</link>
+      <pubDate>Wed, 07 Apr 2021 11:23:15 +0000</pubDate>
       
-      <guid>https://example.com/tags/html/</guid>
+      <guid>https://hausbrand.netlify.app/tags/techno/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>markdown</title>
-      <link>https://example.com/tags/markdown/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <title>Ultraschnell</title>
+      <link>https://hausbrand.netlify.app/tags/ultraschnell/</link>
+      <pubDate>Wed, 07 Apr 2021 11:23:15 +0000</pubDate>
       
-      <guid>https://example.com/tags/markdown/</guid>
+      <guid>https://hausbrand.netlify.app/tags/ultraschnell/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>privacy</title>
-      <link>https://example.com/tags/privacy/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      <title>B2B Set</title>
+      <link>https://hausbrand.netlify.app/tags/b2b-set/</link>
+      <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/privacy/</guid>
+      <guid>https://hausbrand.netlify.app/tags/b2b-set/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>shortcodes</title>
-      <link>https://example.com/tags/shortcodes/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      <title>Bass</title>
+      <link>https://hausbrand.netlify.app/tags/bass/</link>
+      <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/shortcodes/</guid>
+      <guid>https://hausbrand.netlify.app/tags/bass/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>text</title>
-      <link>https://example.com/tags/text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      <title>Chills</title>
+      <link>https://hausbrand.netlify.app/tags/chills/</link>
+      <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/text/</guid>
+      <guid>https://hausbrand.netlify.app/tags/chills/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>emoji</title>
-      <link>https://example.com/tags/emoji/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      <title>Downtemp</title>
+      <link>https://hausbrand.netlify.app/tags/downtemp/</link>
+      <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/emoji/</guid>
+      <guid>https://hausbrand.netlify.app/tags/downtemp/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>thumbnail</title>
-      <link>https://example.com/tags/thumbnail/</link>
-      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
+      <title>Kitchen Record</title>
+      <link>https://hausbrand.netlify.app/tags/kitchen-record/</link>
+      <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/thumbnail/</guid>
+      <guid>https://hausbrand.netlify.app/tags/kitchen-record/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Slow</title>
+      <link>https://hausbrand.netlify.app/tags/slow/</link>
+      <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hausbrand.netlify.app/tags/slow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Solid Groove</title>
+      <link>https://hausbrand.netlify.app/tags/solid-groove/</link>
+      <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hausbrand.netlify.app/tags/solid-groove/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Techno &amp; House</title>
+      <link>https://hausbrand.netlify.app/tags/techno-house/</link>
+      <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hausbrand.netlify.app/tags/techno-house/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vibey</title>
+      <link>https://hausbrand.netlify.app/tags/vibey/</link>
+      <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hausbrand.netlify.app/tags/vibey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adventure</title>
+      <link>https://hausbrand.netlify.app/tags/adventure/</link>
+      <pubDate>Mon, 05 Apr 2021 11:25:57 +0000</pubDate>
+      
+      <guid>https://hausbrand.netlify.app/tags/adventure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>House</title>
+      <link>https://hausbrand.netlify.app/tags/house/</link>
+      <pubDate>Mon, 05 Apr 2021 11:25:57 +0000</pubDate>
+      
+      <guid>https://hausbrand.netlify.app/tags/house/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pawsa</title>
+      <link>https://hausbrand.netlify.app/tags/pawsa/</link>
+      <pubDate>Mon, 05 Apr 2021 11:25:57 +0000</pubDate>
+      
+      <guid>https://hausbrand.netlify.app/tags/pawsa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>90s Vocals</title>
+      <link>https://hausbrand.netlify.app/tags/90s-vocals/</link>
+      <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hausbrand.netlify.app/tags/90s-vocals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ableton Live</title>
+      <link>https://hausbrand.netlify.app/tags/ableton-live/</link>
+      <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hausbrand.netlify.app/tags/ableton-live/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kick</title>
+      <link>https://hausbrand.netlify.app/tags/kick/</link>
+      <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hausbrand.netlify.app/tags/kick/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Production</title>
+      <link>https://hausbrand.netlify.app/tags/production/</link>
+      <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hausbrand.netlify.app/tags/production/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Progressiv House</title>
+      <link>https://hausbrand.netlify.app/tags/progressiv-house/</link>
+      <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hausbrand.netlify.app/tags/progressiv-house/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arrest</title>
+      <link>https://hausbrand.netlify.app/tags/arrest/</link>
+      <pubDate>Fri, 23 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hausbrand.netlify.app/tags/arrest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DJ</title>
+      <link>https://hausbrand.netlify.app/tags/dj/</link>
+      <pubDate>Fri, 23 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hausbrand.netlify.app/tags/dj/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Summmer</title>
+      <link>https://hausbrand.netlify.app/tags/summmer/</link>
+      <pubDate>Fri, 23 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hausbrand.netlify.app/tags/summmer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Traktor</title>
+      <link>https://hausbrand.netlify.app/tags/traktor/</link>
+      <pubDate>Fri, 23 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hausbrand.netlify.app/tags/traktor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Groove</title>
+      <link>https://hausbrand.netlify.app/tags/groove/</link>
+      <pubDate>Sun, 26 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hausbrand.netlify.app/tags/groove/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>House Music</title>
+      <link>https://hausbrand.netlify.app/tags/house-music/</link>
+      <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hausbrand.netlify.app/tags/house-music/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PAWZ</title>
+      <link>https://hausbrand.netlify.app/tags/pawz/</link>
+      <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hausbrand.netlify.app/tags/pawz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Solid Groove Records</title>
+      <link>https://hausbrand.netlify.app/tags/solid-groove-records/</link>
+      <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hausbrand.netlify.app/tags/solid-groove-records/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beginning</title>
+      <link>https://hausbrand.netlify.app/tags/beginning/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hausbrand.netlify.app/tags/beginning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Story</title>
+      <link>https://hausbrand.netlify.app/tags/story/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hausbrand.netlify.app/tags/story/</guid>
       <description></description>
     </item>
     
     <item>
       <title>index</title>
-      <link>https://example.com/tags/index/</link>
+      <link>https://hausbrand.netlify.app/tags/index/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/index/</guid>
+      <guid>https://hausbrand.netlify.app/tags/index/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Work</title>
+      <link>https://hausbrand.netlify.app/tags/work/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hausbrand.netlify.app/tags/work/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Progressiv House on Hausbrand</title>
+    <link>https://hausbrand.netlify.app/tags/progressiv-house/</link>
+    <description>Recent content in Progressiv House on Hausbrand</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 07 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hausbrand.netlify.app/tags/progressiv-house/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>4 to the Floor</title>
+      <link>https://hausbrand.netlify.app/work/fourtothefloor/</link>
+      <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hausbrand.netlify.app/work/fourtothefloor/</guid>
+      <description>With my new launchpad from novation I was well prepared for music production.</description>
+    </item>
+    
+    <item>
+      <title>House Arrest</title>
+      <link>https://hausbrand.netlify.app/blog/housearrest/</link>
+      <pubDate>Fri, 23 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hausbrand.netlify.app/blog/housearrest/</guid>
+      <description>I&amp;rsquo;m just at home all the time. Thanks god I&amp;rsquo;ve found my interest in music.</description>
+    </item>
+    
+    <item>
+      <title>Groovery</title>
+      <link>https://hausbrand.netlify.app/blog/groovery/</link>
+      <pubDate>Sun, 26 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hausbrand.netlify.app/blog/groovery/</guid>
+      <description>The summer strives and it&amp;rsquo;s hot in berlin. Practically it&amp;rsquo;s a hard corona lockdown for everybody.</description>
+    </item>
+    
+  </channel>
+</rss>

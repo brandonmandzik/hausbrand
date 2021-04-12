@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pawsa on Hausbrand</title>
+    <link>https://hausbrand.netlify.app/tags/pawsa/</link>
+    <description>Recent content in Pawsa on Hausbrand</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 05 Apr 2021 11:25:57 +0000</lastBuildDate><atom:link href="https://hausbrand.netlify.app/tags/pawsa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ruffneck Brothers</title>
+      <link>https://hausbrand.netlify.app/blog/ruffneck-brothers/</link>
+      <pubDate>Mon, 05 Apr 2021 11:25:57 +0000</pubDate>
+      
+      <guid>https://hausbrand.netlify.app/blog/ruffneck-brothers/</guid>
+      <description>Pawsa is definitly a house club hero. His bass roles through you literally.</description>
+    </item>
+    
+    <item>
+      <title>Shubz</title>
+      <link>https://hausbrand.netlify.app/blog/shubz/</link>
+      <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hausbrand.netlify.app/blog/shubz/</guid>
+      <description>Pawsa is by far my favorite DJ from the Solid Groove Records.</description>
+    </item>
+    
+  </channel>
+</rss>

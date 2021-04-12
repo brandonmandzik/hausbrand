@@ -3,137 +3,245 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://example.com/</loc>
-    <lastmod>2021-03-13T21:47:41+00:00</lastmod>
+    <loc>https://hausbrand.netlify.app/</loc>
+    <lastmod>2021-04-07T11:23:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/tags/demo/</loc>
-    <lastmod>2021-03-13T21:47:41+00:00</lastmod>
+    <loc>https://hausbrand.netlify.app/tags/133-140bpm/</loc>
+    <lastmod>2021-04-07T11:23:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/post/</loc>
-    <lastmod>2021-03-13T21:47:41+00:00</lastmod>
+    <loc>https://hausbrand.netlify.app/blog/</loc>
+    <lastmod>2021-04-07T11:23:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/tags/shortcode/</loc>
-    <lastmod>2021-03-13T21:47:41+00:00</lastmod>
+    <loc>https://hausbrand.netlify.app/tags/elias/</loc>
+    <lastmod>2021-04-07T11:23:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/tags/</loc>
-    <lastmod>2021-03-13T21:47:41+00:00</lastmod>
+    <loc>https://hausbrand.netlify.app/blog/fledermaus-groove/</loc>
+    <lastmod>2021-04-07T11:23:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/post/figure-shortcode/</loc>
-    <lastmod>2021-03-13T21:47:41+00:00</lastmod>
+    <loc>https://hausbrand.netlify.app/tags/set/</loc>
+    <lastmod>2021-04-07T11:23:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/archives/</loc>
-    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+    <loc>https://hausbrand.netlify.app/tags/</loc>
+    <lastmod>2021-04-07T11:23:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/categories/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <loc>https://hausbrand.netlify.app/tags/techno/</loc>
+    <lastmod>2021-04-07T11:23:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/tags/css/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <loc>https://hausbrand.netlify.app/tags/ultraschnell/</loc>
+    <lastmod>2021-04-07T11:23:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/tags/html/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <loc>https://hausbrand.netlify.app/tags/b2b-set/</loc>
+    <lastmod>2021-04-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/tags/markdown/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <loc>https://hausbrand.netlify.app/tags/bass/</loc>
+    <lastmod>2021-04-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/post/markdown-syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <loc>https://hausbrand.netlify.app/tags/chills/</loc>
+    <lastmod>2021-04-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/categories/syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <loc>https://hausbrand.netlify.app/tags/downtemp/</loc>
+    <lastmod>2021-04-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/categories/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <loc>https://hausbrand.netlify.app/tags/kitchen-record/</loc>
+    <lastmod>2021-04-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/tags/privacy/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+    <loc>https://hausbrand.netlify.app/work/elias-schneckno/</loc>
+    <lastmod>2021-04-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/post/rich-content/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+    <loc>https://hausbrand.netlify.app/tags/slow/</loc>
+    <lastmod>2021-04-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/tags/shortcodes/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+    <loc>https://hausbrand.netlify.app/tags/solid-groove/</loc>
+    <lastmod>2021-04-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/post/placeholder-text/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+    <loc>https://hausbrand.netlify.app/tags/techno-house/</loc>
+    <lastmod>2021-04-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/tags/text/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+    <loc>https://hausbrand.netlify.app/work/hausbrand-b2b-elias/</loc>
+    <lastmod>2021-04-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/contact/</loc>
-    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
+    <loc>https://hausbrand.netlify.app/tags/vibey/</loc>
+    <lastmod>2021-04-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/post/math-typesetting/</loc>
-    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
+    <loc>https://hausbrand.netlify.app/work/</loc>
+    <lastmod>2021-04-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/tags/emoji/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+    <loc>https://hausbrand.netlify.app/tags/adventure/</loc>
+    <lastmod>2021-04-05T11:25:57+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/post/emoji-support/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+    <loc>https://hausbrand.netlify.app/tags/house/</loc>
+    <lastmod>2021-04-05T11:25:57+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/post/image-test/</loc>
-    <lastmod>2019-03-04T00:00:00+00:00</lastmod>
+    <loc>https://hausbrand.netlify.app/tags/pawsa/</loc>
+    <lastmod>2021-04-05T11:25:57+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/tags/thumbnail/</loc>
-    <lastmod>2019-03-04T00:00:00+00:00</lastmod>
+    <loc>https://hausbrand.netlify.app/blog/ruffneck-brothers/</loc>
+    <lastmod>2021-04-05T11:25:57+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/about/</loc>
-    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+    <loc>https://hausbrand.netlify.app/about/</loc>
+    <lastmod>2021-03-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/tags/index/</loc>
+    <loc>https://hausbrand.netlify.app/work/fourtothefloor/</loc>
+    <lastmod>2021-01-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hausbrand.netlify.app/tags/90s-vocals/</loc>
+    <lastmod>2021-01-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hausbrand.netlify.app/tags/ableton-live/</loc>
+    <lastmod>2021-01-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hausbrand.netlify.app/tags/kick/</loc>
+    <lastmod>2021-01-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hausbrand.netlify.app/tags/production/</loc>
+    <lastmod>2021-01-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hausbrand.netlify.app/tags/progressiv-house/</loc>
+    <lastmod>2021-01-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hausbrand.netlify.app/tags/arrest/</loc>
+    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hausbrand.netlify.app/tags/dj/</loc>
+    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hausbrand.netlify.app/blog/housearrest/</loc>
+    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hausbrand.netlify.app/tags/summmer/</loc>
+    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hausbrand.netlify.app/tags/traktor/</loc>
+    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hausbrand.netlify.app/tags/groove/</loc>
+    <lastmod>2020-07-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hausbrand.netlify.app/blog/groovery/</loc>
+    <lastmod>2020-07-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hausbrand.netlify.app/tags/house-music/</loc>
+    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hausbrand.netlify.app/tags/pawz/</loc>
+    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hausbrand.netlify.app/blog/shubz/</loc>
+    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hausbrand.netlify.app/tags/solid-groove-records/</loc>
+    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hausbrand.netlify.app/tags/beginning/</loc>
+    <lastmod>2020-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hausbrand.netlify.app/blog/hyux/</loc>
+    <lastmod>2020-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hausbrand.netlify.app/tags/story/</loc>
+    <lastmod>2020-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hausbrand.netlify.app/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hausbrand.netlify.app/tags/index/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hausbrand.netlify.app/tags/work/</loc>
   </url>
   
 </urlset>

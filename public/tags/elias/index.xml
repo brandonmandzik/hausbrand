@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Elias on Hausbrand</title>
+    <link>https://hausbrand.netlify.app/tags/elias/</link>
+    <description>Recent content in Elias on Hausbrand</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 07 Apr 2021 11:23:15 +0000</lastBuildDate><atom:link href="https://hausbrand.netlify.app/tags/elias/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fledermaus Groove</title>
+      <link>https://hausbrand.netlify.app/blog/fledermaus-groove/</link>
+      <pubDate>Wed, 07 Apr 2021 11:23:15 +0000</pubDate>
+      
+      <guid>https://hausbrand.netlify.app/blog/fledermaus-groove/</guid>
+      <description>Elias Almarales released lastly his new set. His driving kicks range from 133 to 140 BPM.</description>
+    </item>
+    
+  </channel>
+</rss>

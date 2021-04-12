@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Beginning on Hausbrand</title>
+    <link>https://hausbrand.netlify.app/tags/beginning/</link>
+    <description>Recent content in Beginning on Hausbrand</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 10 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://hausbrand.netlify.app/tags/beginning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hyux</title>
+      <link>https://hausbrand.netlify.app/blog/hyux/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hausbrand.netlify.app/blog/hyux/</guid>
+      <description>I got my controller back in april and decided to somehow fight against the time in corona.</description>
+    </item>
+    
+  </channel>
+</rss>
