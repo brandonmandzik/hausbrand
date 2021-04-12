@@ -35,7 +35,6 @@ const requireAuth = async (targetUrl) => {
     if (isAuthenticated) {
         return;
     }
-
     return login(targetUrl);
 };
 
