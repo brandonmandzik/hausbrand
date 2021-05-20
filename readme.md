@@ -2,7 +2,8 @@
 
 ###### Author: Brandon Mandzik, 2021
 
-![image-20210520152006349](/Users/brandonmandzik/Library/Application Support/typora-user-images/image-20210520152006349.png)
+
+
 
 
 
@@ -54,9 +55,7 @@ The CMS is available under http://localhost:1313/admin.
 
 ## Backend Services
 
-![Tech Stack](/Users/brandonmandzik/Documents/Study/Bachelor Thesis/Workspace/Pictures/Tech Stack.png)
-
-
+![image](https://user-images.githubusercontent.com/35039517/119002391-1f349880-b98d-11eb-893d-68d0c4808b01.png)
 
 The JAMStack blog utilises a few third-party providers to enrich the functionality. Things that have been out of scope, have been build locally. The resulting binaries are inside of /functions. The related code can be requested if needed, they're not here in order to save hosting space. 
 
