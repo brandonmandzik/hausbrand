@@ -2,10 +2,7 @@
 
 ###### Author: Brandon Mandzik, 2021
 
-
-
-
-
+![image](https://user-images.githubusercontent.com/35039517/119002497-396e7680-b98d-11eb-85f6-cdc598d1eb69.png)
 
 ### Introduction
 
