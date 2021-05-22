@@ -54,13 +54,13 @@ The CMS is available under http://localhost:1313/admin.
 
 ![image](https://user-images.githubusercontent.com/35039517/119002391-1f349880-b98d-11eb-893d-68d0c4808b01.png)
 
-The JAMStack blog utilises a few third-party providers to enrich the functionality. Things that were out of scope, have been build locally. The resulting binaries are inside of /functions. The related code can be requested if needed, they're not here in order to save hosting space. 
+The JAMStack blog utilises a few third-party providers to enrich the functionality. Things that were out of scope, have been build locally. The resulting binaries are inside of /functions. This will translate to serverless functions endpoints following this strucutre: "domain/.netlify/functions/name?queries=". The related code can be requested if needed, they're not here in order to save hosting space. 
 
-The mail service is covered by [**SendinBlue**]().
+The mail service is covered by [**SendinBlue**](https://www.sendinblue.com).
 
-The commenting service by [__Hyvor__]().
+The commenting service by [__Hyvor__](https://hyvor.com).
 
-The authentication by [__auth0__]() which replaced Netlify Identity. 
+The authentication by [__auth0__](https://auth0.com) which replaced Netlify Identity. 
 
-The hosting provider is [**netlify**]() and allows the owner to be as 'serverless' as possible. 
+The hosting provider is [**Netlify**](https://www.netlify.com) and allows the owner to be as 'serverless' as possible. 
 
