@@ -10,7 +10,7 @@ This repository serves as my workspace for my bachelor thesis. The resulting app
 
 When you are one of my **professors** - please contact me, so that I can activate all services. Currently some are *deactivated* to save money. I will also even grant you the *credentials* for the backend services, so you can have a look around and test it out.
 
-The **latest production** is viewable under https://hausbrand.netlify.app
+The **latest production** is viewable under https://hausbrand.netlify.app <br>
 For the best experience - I recommend  using Google Chrome.
 
 
@@ -42,7 +42,7 @@ The CMS is available under http://localhost:1313/admin.
 | --------- | ------------------------------------------------------------ |
 | assets    | CSS and JS files                                             |
 | content   | Holds content for the templating as markdown files.          |
-| functions | Compiled Go binaries for AWS servers. Function name results in endpoint name |
+| functions | Compiled Go binaries for AWS servers. Function names result in endpoint names. |
 | layouts   | Holds view templates for the application                     |
 | public    | Build directory                                              |
 | static    | Used for static files like images and .html files. Also contains the /admin (CMS) files |
@@ -54,13 +54,13 @@ The CMS is available under http://localhost:1313/admin.
 
 ![image](https://user-images.githubusercontent.com/35039517/119002391-1f349880-b98d-11eb-893d-68d0c4808b01.png)
 
-The JAMStack blog utilises a few third-party providers to enrich the functionality. Things that have been out of scope, have been build locally. The resulting binaries are inside of /functions. The related code can be requested if needed, they're not here in order to save hosting space. 
+The JAMStack blog utilises a few third-party providers to enrich the functionality. Things that were out of scope, have been build locally. The resulting binaries are inside of /functions. The related code can be requested if needed, they're not here in order to save hosting space. 
 
-The mail service is covered by **SendinBlue**.
+The mail service is covered by [**SendinBlue**]().
 
-The commenting service by __Hyvor__.
+The commenting service by [__Hyvor__]().
 
-The authentication by __auth0__ which replaced Netlify Identity. 
+The authentication by [__auth0__]() which replaced Netlify Identity. 
 
-The hosting provider is **netlify** and allows the owner to be as 'serverless' as possible. 
+The hosting provider is [**netlify**]() and allows the owner to be as 'serverless' as possible. 
 
